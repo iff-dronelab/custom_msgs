@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>custom_msgs</name>
+  <version>1.0.0</version>
+  <description>The custom_msgs package contains messages related to iFF project Ankommen</description>
+  <maintainer email="y.khedar@tu-bs.de">Yogesh Khedar</maintainer>
+  <license>BSD</license>
+  <url type="website">https://samurai012@bitbucket.org/samurai012/custom_msgs.git</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+
+  <export>
+  </export>
+</package>
+
+
